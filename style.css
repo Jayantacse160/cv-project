@@ -150,4 +150,7 @@ h1,h2,h3,h4,h5,h6{
     .other-tem1, .other-tem2, .other-tem3{
         width: 100%;
     }
+    
+    .fa{
+    font-size:10px;}
 }
