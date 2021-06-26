@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+body{
+    background-color: #eee;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color:#e4f5f9;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* header start */
+.image{
+    width: 110px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+}
+.header-pro{
+    float: left;
+    padding: 25px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(58, 131, 91);
+}
+.header-info{
+    float: right;
+    padding: 30px;
+}
+.header-info a{
+    text-decoration: none;
+    color:rgb(58, 131, 91);
+    font-weight:bold;
+    padding: 10px;
+}
+.header-info a:hover{
+    color:red;
+}
+.div-clear{
+    clear: both;
+}
+.hr{
+    border:3px solid black;
+    border-bottom: none;
+    margin: 20px auto;
+}
+/* header end */
+
+/* personal infoo */
+.left-div{
+    float: left;
+    width:30%;
+}
+
+.right-div{
+    float:right;
+    width: 70%;
+}
+/* personal info end */
+.com-hr{
+    border:1px solid black;
+    margin: 20px auto;
+}
+
+/* project start */
+.pro-link {
+    color:black;
+
+}
+.pro-link:hover{
+  color:brown;
+}
+/* project end */
+
+/* edu start */
+.edu-tem1{
+    float: left;
+    width: 33.33%;
+}
+.edu-tem2{
+    float: left;
+    width: 33.33%;
+}
+.edu-tem3{
+    float: right;
+    width: 33.333%;
+}
+/* edu end */
+
+/* other skill strat */
+.other-tem1{
+    float:left; 
+    width:33.33%;
+}
+.other-tem2{
+    float: left;
+    width: 33.333%;
+}
+.other-tem3{
+    float: right;
+    width: 33.33%;
+}
+/* other skill end */
+
+/* fotter */
+.follow-me{
+    text-align: center;
+    
+}
+.fa{
+    font-size: 20px;
+    padding: 5px;
+    color:darkgreen;
+    margin-top: 5px;
+   
+}
+.fa:hover{
+    color:firebrick;
+}
+.b-title{
+    margin-top: 10px;
+}
+
+/* responsive */
+@media only screen and (max-width: 768px){
+    body{
+        font-size: 16px;
+    }
+    
+    .header-pro{
+        width:50%;
+        font-size:9px;
+    }
+    .container{
+        margin:0 auto;
+        max-width: 100%;
+    }
+    .left-div{
+        width: 100%;
+    }
+    .right-div{
+        width: 100%;
+    }
+    .edu-tem1, .edu-tem2, .edu-tem3{
+        width:100%;
+    }
+    .other-tem1, .other-tem2, .other-tem3{
+        width: 100%;
+    }
+}
